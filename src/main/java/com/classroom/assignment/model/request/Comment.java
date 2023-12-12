@@ -4,11 +4,13 @@ public class Comment {
 
   private String name;
   private String content;
+  
 
   public Comment(String name, String content) {
     this.setName(name);
     this.setContent(content);
   }
+
 
   public String getName() {
     return name;
